@@ -1,18 +1,13 @@
-import Doctors from "./components/Doctors"
+import Appointment from "./components/Appointment";
+import Doctors from "./components/Doctors";
 
 function App() {
-
   return (
     <div>
-      <Doctors/>
-      
-      
-     
-     
-      
-      
+      <Doctors />
+      <Appointment/>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
